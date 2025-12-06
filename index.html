@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-flex">
+            <a href="#" class="logo">DEV.PORTFOLIO</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#contact" class="btn-primary">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <header id="hero" class="hero-section">
+        <div class="container hero-content">
+            <h1>Building Scalable <span class="highlight">Digital Solutions</span></h1>
+            <p>I am a Full-Stack Developer specializing in modern web architecture and user-centric design.</p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn-primary">View My Work</a>
+                <a href="#contact" class="btn-secondary">Get in Touch</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>I focus on creating clean, efficient, and accessible code. With a background in corporate
+                        software development, I bridge the gap between complex engineering and intuitive design.</p>
+                    <p>My goal is to build applications that perform well and look professional.</p>
+                </div>
+                <div class="about-visual">
+                    <div class="code-block">
+                        <pre><code>const developer = {
+  name: "Your Name",
+  role: "Full Stack Dev",
+  passion: "Clean Code"
+};</code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">JavaScript (ES6+)</div>
+                <div class="skill-item">React / Next.js</div>
+                <div class="skill-item">Node.js</div>
+                <div class="skill-item">Python</div>
+                <div class="skill-item">SQL & NoSQL</div>
+                <div class="skill-item">Git & DevOps</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Selected Projects</h2>
+            <div id="project-container" class="project-grid"></div>
+        </div>
+    </section>
+
+    <section id="certificates" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+
+            <div class="filter-container">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="software">Software Dev</button>
+                <button class="filter-btn" data-filter="data">Data Science</button>
+                <button class="filter-btn" data-filter="cyber">Cybersecurity</button>
+                <button class="filter-btn" data-filter="ai">AI & ML</button>
+            </div>
+
+            <div id="cert-grid" class="project-grid">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container contact-container">
+            <h2 class="section-title">Contact Me</h2>
+            <p>Currently open for new opportunities and collaborations.</p>
+            <a href="mailto:email@example.com" class="email-link">email@example.com</a>
+
+            <div class="social-links">
+                <a href="#">GitHub</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Developer Portfolio. Built with HTML, CSS, JS.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
